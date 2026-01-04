@@ -1,10 +1,10 @@
-# Weather Forecast (Scandinavia) — React + TypeScript
+# Weather Forecast — React + TypeScript
 
-School project for **IT2810 Web Development (Autumn 2023)**.
+Course project for **IT2810 Web Development (Autumn 2023)**.
 
 This repository contains a responsive weather web application built with React + TypeScript. The app fetches weather data from Meteorologisk institutt (met.no) and lets users browse city forecasts, filter by country, and save favorites using browser storage.
 
-This is a course project and is published as a portfolio artifact only (not maintained).
+This is a course project and has not been maintained since 2023.
 
 Note on repository history: The original project was developed on a private university GitLab server. This public repository does not include the original commit history.
 
