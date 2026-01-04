@@ -1,0 +1,31 @@
+.listview-background * {
+    background-color: rgb(4, 140, 158);
+    cursor: pointer;
+}
+
+.listview-group {
+    background-color: rgb(4, 140, 158);
+    position: relative;
+    align-items: center;
+    place-items: center;
+    display: grid;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 760px) {
+    .listview-background {
+        padding: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .listview-background * {
+        background-color: rgb(4, 140, 158);
+    }
+
+    .listview-group {
+        background-color: rgb(4, 140, 158);
+        align-items: center;
+        place-items: center;
+        display: grid;
+    }
+}

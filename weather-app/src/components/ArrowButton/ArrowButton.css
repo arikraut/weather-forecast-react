@@ -1,0 +1,10 @@
+.arrow-button {
+    color: #1b5e69;
+    background-color: transparent;
+    width: auto;
+}
+
+.arrow-button:hover {
+    color: #4e949f;
+    cursor: pointer;
+}

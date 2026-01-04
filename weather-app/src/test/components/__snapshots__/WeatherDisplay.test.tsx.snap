@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Renders weatherdisplay correctly 1`] = `
+<DocumentFragment>
+  <section
+    data-testid="loading-indicator-id"
+  >
+    <h2>
+      Loading...
+    </h2>
+  </section>
+</DocumentFragment>
+`;

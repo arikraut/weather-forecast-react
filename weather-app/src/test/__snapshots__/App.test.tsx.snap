@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders title with snapshot 1`] = `
+<h1>
+  Today's weather forecast
+</h1>
+`;

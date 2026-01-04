@@ -1,0 +1,361 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ListView > renders app in ListView correctly 1`] = `
+<DocumentFragment>
+  <main
+    class="wrapper"
+  >
+    <h1>
+      Today's Weather Forecast
+    </h1>
+    <br />
+    <section
+      data-testid="weather-display-id"
+    >
+      <section
+        data-testid="loading-indicator-id"
+      />
+      <section
+        class="display-wrapper"
+      >
+        <section
+          class="display-background"
+        >
+          <section
+            class="choice-buttons"
+          >
+            <button
+              class="choice-button not-active"
+              data-testid="choice-button-All"
+            >
+              All
+            </button>
+            <button
+              class="choice-button not-active"
+              data-testid="choice-button-Norway"
+            >
+              Norway
+            </button>
+            <button
+              class="choice-button not-active"
+              data-testid="choice-button-Sweden"
+            >
+              Sweden
+            </button>
+            <button
+              class="choice-button not-active"
+              data-testid="choice-button-Denmark"
+            >
+              Denmark
+            </button>
+            <button
+              class="choice-button not-active"
+              data-testid="choice-button-Favorites"
+            >
+              Favorites
+            </button>
+          </section>
+          <main
+            class="weather-carousel-grid"
+          >
+            <div
+              class="arrow-button-left"
+            >
+              <section
+                class="arrow-button"
+                data-testid="arrow-button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="80"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 320 512"
+                  width="80"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"
+                  />
+                </svg>
+              </section>
+            </div>
+            <section
+              class="weather-card-carousel"
+            >
+              <main
+                class="weather-card-large-wrapper"
+              >
+                <section
+                  class="weather-card-large-background"
+                >
+                  <section
+                    class="weather-card-large"
+                  >
+                    <section
+                      class="weather-card-large-grid"
+                    >
+                      <h3
+                        class="weather-card-large-city"
+                      >
+                        Oslo
+                      </h3>
+                      <h3
+                        class="weather-card-large-temperature"
+                      >
+                        -4.8°C
+                      </h3>
+                      <div
+                        class="weather-card-large-icon"
+                      >
+                        <svg
+                          fill="currentColor"
+                          height="100"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 16 16"
+                          width="100"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="weather-card-large-fav-button"
+                      >
+                        <svg
+                          fill="currentColor"
+                          height="50"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 1024 1024"
+                          width="50"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8 264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5 0 201.2-356 429.3-356 429.3z"
+                          />
+                        </svg>
+                      </div>
+                    </section>
+                  </section>
+                </section>
+              </main>
+            </section>
+            <div
+              class="arrow-button-right"
+            >
+              <section
+                class="arrow-button"
+                data-testid="arrow-button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="80"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 320 512"
+                  width="80"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </section>
+            </div>
+          </main>
+          <button
+            class="view-button"
+            data-testid="change-view-button"
+          >
+            List view
+          </button>
+        </section>
+      </section>
+    </section>
+  </main>
+</DocumentFragment>
+`;
+
+exports[`ListView > renders app in ListView correctly 2`] = `
+<DocumentFragment>
+  <main
+    class="wrapper"
+  >
+    <h1>
+      Today's Weather Forecast
+    </h1>
+    <br />
+    <section
+      data-testid="weather-display-id"
+    >
+      <section
+        data-testid="loading-indicator-id"
+      />
+      <section
+        class="display-wrapper"
+      >
+        <section
+          class="display-background"
+        >
+          <section
+            class="choice-buttons"
+          >
+            <button
+              class="choice-button not-active"
+              data-testid="choice-button-All"
+            >
+              All
+            </button>
+            <button
+              class="choice-button not-active"
+              data-testid="choice-button-Norway"
+            >
+              Norway
+            </button>
+            <button
+              class="choice-button not-active"
+              data-testid="choice-button-Sweden"
+            >
+              Sweden
+            </button>
+            <button
+              class="choice-button not-active"
+              data-testid="choice-button-Denmark"
+            >
+              Denmark
+            </button>
+            <button
+              class="choice-button not-active"
+              data-testid="choice-button-Favorites"
+            >
+              Favorites
+            </button>
+          </section>
+          <main
+            class="weather-carousel-grid"
+          >
+            <div
+              class="arrow-button-left"
+            >
+              <section
+                class="arrow-button"
+                data-testid="arrow-button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="80"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 320 512"
+                  width="80"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"
+                  />
+                </svg>
+              </section>
+            </div>
+            <section
+              class="weather-card-carousel"
+            >
+              <main
+                class="weather-card-large-wrapper"
+              >
+                <section
+                  class="weather-card-large-background"
+                >
+                  <section
+                    class="weather-card-large"
+                  >
+                    <section
+                      class="weather-card-large-grid"
+                    >
+                      <h3
+                        class="weather-card-large-city"
+                      >
+                        Oslo
+                      </h3>
+                      <h3
+                        class="weather-card-large-temperature"
+                      >
+                        -4.4°C
+                      </h3>
+                      <div
+                        class="weather-card-large-icon"
+                      >
+                        <svg
+                          fill="currentColor"
+                          height="100"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 16 16"
+                          width="100"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="weather-card-large-fav-button"
+                      >
+                        <svg
+                          fill="currentColor"
+                          height="50"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 1024 1024"
+                          width="50"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8 264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3 56-51.7 101.1-102.7 133.9-151.6 20.7-30.9 37-61.5 48.2-91 13.5-35.3 20.3-70 20.3-103.3.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5 0 201.2-356 429.3-356 429.3z"
+                          />
+                        </svg>
+                      </div>
+                    </section>
+                  </section>
+                </section>
+              </main>
+            </section>
+            <div
+              class="arrow-button-right"
+            >
+              <section
+                class="arrow-button"
+                data-testid="arrow-button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="80"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 320 512"
+                  width="80"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </section>
+            </div>
+          </main>
+          <button
+            class="view-button"
+            data-testid="change-view-button"
+          >
+            List view
+          </button>
+        </section>
+      </section>
+    </section>
+  </main>
+</DocumentFragment>
+`;

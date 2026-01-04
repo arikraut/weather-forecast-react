@@ -1,0 +1,53 @@
+.weather-carousel-grid {
+    background-color: rgb(4, 140, 158);
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    width: 700px;
+    height: 300px;
+}
+
+.arrow-button-left {
+    grid-column: 1;
+    justify-content: center;
+    background-color: rgb(4, 140, 158);
+}
+
+.weather-card-large {
+    grid-column: 2;
+    justify-content: center;
+}
+
+.weather-card-large:hover {
+    cursor: pointer;
+}
+
+.arrow-button-right {
+    grid-column: 3;
+    justify-content: center;
+    background-color: rgb(4, 140, 158);
+}
+
+@media only screen and (max-width: 760px) {
+    .weather-carousel-grid {
+        background-color: rgb(4, 140, 158);
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+        width: auto;
+        height: auto;
+    }
+
+    .arrow-button-left {
+        grid-column: 1;
+        justify-content: center;
+    }
+
+    .weather-card-large {
+        grid-column: 2;
+        justify-content: center;
+    }
+
+    .arrow-button-right {
+        grid-column: 3;
+        justify-content: center;
+    }
+}
