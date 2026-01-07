@@ -2,7 +2,7 @@
 
 Course project for **IT2810 Web Development (Autumn 2023)**.
 
-This repository contains a responsive weather web application built with React + TypeScript. The app fetches weather data from Meteorologisk institutt (met.no) and lets users browse city forecasts, filter by country, and save favorites using browser storage.
+This repository contains a responsive weather web application built with React + TypeScript (without third-party UI component libraries). The app fetches weather data from Meteorologisk institutt (met.no) and lets users browse city forecasts, filter by country, and save favorites using browser storage.
 
 This is a course project and has not been maintained since 2023.
 
@@ -10,7 +10,7 @@ Note on repository history: The original project was developed on a private univ
 
 ---
 
-## What the app does
+## Features
 
 -   **City weather cards:** View current weather/temperature for multiple cities and navigate back/forward through results.
 -   **Filter by country:** Reduce the set of displayed cities by country.
@@ -18,6 +18,22 @@ Note on repository history: The original project was developed on a private univ
 -   **List vs. carousel view:** Toggle between list and carousel presentation (session-persisted while the tab is open).
 -   **Plan ahead:** By clicking on a weather card you will be sent to a page showing you the weather for the next six hours.
 -   **Responsive UI:** Designed to work well on desktop and mobile (including portrait/landscape).
+
+## Screenshots
+
+![Carousel View](docs/screenshots/carousel_view.png)
+
+<br/>
+
+![List View](docs/screenshots/list_view.png)
+
+<br/>
+
+![Favorites](docs/screenshots/favorites.png)
+
+<br/>
+
+![Detailed](docs/screenshots/future.png)
 
 ## Course constraints that shaped the implementation
 
